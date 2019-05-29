@@ -139,7 +139,7 @@ void FrontEnd::readArduino(QString cmd)
 
 
         }
-        else if(le.startsWith("oMG"))
+        else if(le.startsWith("oMG") || le.startsWith("ok"))
         {
             if(!isStop)//如果没有停止
             {

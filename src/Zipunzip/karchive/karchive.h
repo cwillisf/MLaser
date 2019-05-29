@@ -29,6 +29,8 @@
 #include <QtCore/QStringList>
 #include <QtCore/QHash>
 
+#include <qiodevice.h>
+
 #include <karchive_export.h>
 
 #ifdef Q_OS_WIN
